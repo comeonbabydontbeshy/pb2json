@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Address {
+	bytes street = 1;
+	int32 plate_number = 2;
+}
+
+message Person {
+	bytes name = 1;
+	int32 age = 2;
+	Address address =3;
+	float weight =4;
+}

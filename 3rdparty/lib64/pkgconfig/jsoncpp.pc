@@ -1,0 +1,11 @@
+prefix=/home/linjian/source_code/jsoncpp/jsoncpp
+exec_prefix=${prefix}
+libdir=/home/linjian/source_code/jsoncpp/jsoncpp/lib
+includedir=/home/linjian/source_code/jsoncpp/jsoncpp/include/jsoncpp
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 0.10.6
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
